@@ -1,9 +1,9 @@
-<h1 align="center">Hi 👋, I'm Aditya Sarade</h1>
-<h3 align="center">AI & Data Science Student | Building Intelligent Systems with LLMs, Agents & RAG</h3>
+<h1 align="center">Hey, I'm Aditya Sarade</h1>
+<h3 align="center">AI & Data Science Major | Building Intelligent Systems with LLMs, Agents & RAG</h3>
 
 ---
 
-### 🧠 About Me
+### About Me:
 I'm **Aditya Sarade**, a final-year student majoring in **Artificial Intelligence and Data Science** at the **AISSMS Institute of Information Technology**.
 
 I'm passionate about exploring the evolving space of **Generative AI**, **Agentic Systems**, and **Retrieval-Augmented Generation (RAG)** — particularly how these technologies enable autonomous reasoning and real-world decision-making.
@@ -51,7 +51,7 @@ I'm constantly learning and building projects that combine AI with robust backen
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="45" height="45"/><br>Docker
 </td>
 <td align="center" width="100">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg" width="45" height="45"/><br>AWS
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="45"<br>AWS
 </td>
 <td align="center" width="100">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="45" height="45"/><br>Linux
