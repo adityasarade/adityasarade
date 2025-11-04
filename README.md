@@ -63,10 +63,10 @@ I'm constantly learning and building projects that combine AI with robust backen
 
 ### 📈 GitHub Stats
 
-<div align="center">
+<p align="center">
   <img height="200" src="https://github-readme-stats-sigma-five.vercel.app/api?username=adityasarade&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true" />
   <img height="200" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adityasarade&theme=react&hide_border=true&layout=compact" />
-</div>
+</p>
 
 ---
 
