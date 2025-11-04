@@ -61,7 +61,7 @@ I'm constantly learning and building projects that combine AI with robust backen
 
 ---
 
-<h2 align="left">📊 GitHub Stats</h2>
+### 📊 GitHub Stats
 
 <div align="center">
   <table>
