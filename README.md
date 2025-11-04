@@ -63,10 +63,23 @@ I'm constantly learning and building projects that combine AI with robust backen
 
 ### 📈 GitHub Stats
 
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=adityasarade&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasarade&theme=react&hide_border=true&layout=compact" />
-</p>
+<div align="center">
+
+  <!-- GitHub Stats Card -->
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=adityasarade&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true"
+    height="180"
+    alt="GitHub Stats"
+  />
+
+  <!-- Top Languages Card -->
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasarade&theme=react&hide_border=true&layout=compact"
+    height="180"
+    alt="Top Languages"
+  />
+
+</div>
 
 ---
 
