@@ -9,17 +9,17 @@ I'm **Aditya Sarade**, a final-year student majoring in **Artificial Intelligenc
 I'm passionate about exploring the evolving space of **Generative AI**, **Agentic Systems**, and **Retrieval-Augmented Generation (RAG)** — particularly how these technologies enable autonomous reasoning and real-world decision-making.
 
 My work spans:
-- 🧩 **Multi-Agent Architectures** (LangGraph, Memory Layer, Coordination)
-- 🧮 **Text-to-SQL Generation** using LLMs
-- 🧠 **Vector Search Systems** (Qdrant, Pinecone, ChromaDB, FAISS)
-- ⚙️ **Backend Development** with FastAPI, MongoDB, and Redis
-- 📊 **AI Automation Pipelines** for HR, Data, and Workflow Systems
+- **Multi-Agent Architectures** (LangGraph, Memory Layer, Coordination)
+- **Text-to-SQL Generation** using LLMs
+- **Vector Search Systems** (Qdrant, Pinecone, ChromaDB, FAISS)
+- **Backend Development** with FastAPI, MongoDB, and Redis
+- **AI Automation Pipelines** for HR, Data, and Workflow Systems
 
 I'm constantly learning and building projects that combine AI with robust backend design principles to push the boundaries of intelligent automation.
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 <div align="center">
   <!-- Row 1 -->
@@ -49,7 +49,7 @@ I'm constantly learning and building projects that combine AI with robust backen
 
 ---
 
-### 🌍 Connect with Me
+### Connect with Me
 <p align="center">
 <a href="https://www.linkedin.com/in/adityasarade/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -61,7 +61,7 @@ I'm constantly learning and building projects that combine AI with robust backen
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Stats
 
 <div align="center">
   <table>
