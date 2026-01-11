@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Aditya Sarade
+# Hi, I'm Aditya Sarade 👋
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=580&lines=Building+the+Memory+Layer+for+Agentic+AI;Multi-Agent+Systems+%26+RAG+Architect;Published+Python+Libraries+on+PyPI;Always+finding+harder+problems+to+solve" alt="Typing SVG" /></a>
 
@@ -10,7 +10,7 @@
 <a href="https://www.linkedin.com/in/adityasarade/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-<a href="mailto:adityasarade7@gmail.com">
+<a href="mailto:aditya.sarade2003@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <a href="https://github.com/adityasarade">
@@ -24,106 +24,96 @@
 
 ---
 
-## About Me
+## 🚀 About Me
 
-```python
-class Aditya:
-    def __init__(self):
-        self.role = "AI Engineer"
-        self.education = "B.Tech in Artificial Intelligence & Data Science"
-        self.location = "Pune, India"
+I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of Information Technology, Pune** (graduating 2026). My work focuses on building the **Memory Layer for Agentic AI** — enabling persistent context and long-term planning in autonomous agents.
 
-    def what_i_do(self):
-        """
-        I build the memory layer for agentic AI — enabling agents to
-        remember, reason, and act across sessions. My work sits at the
-        intersection of multi-agent orchestration, retrieval systems,
-        and production-grade semantic search.
-        """
-        return {
-            "agent_frameworks": ["LangGraph", "Custom Orchestration"],
-            "retrieval": ["RAG Pipelines", "Text-to-SQL", "Semantic Search"],
-            "vector_stores": ["Qdrant", "Pinecone", "ChromaDB", "FAISS"],
-            "backend": ["FastAPI", "MongoDB", "Redis", "RabbitMQ"],
-            "pypi_packages": ["asterix", "qmem"]
-        }
-
-    def beyond_code(self):
-        # chess player, astronomy nerd, former MUN delegate
-        # always trying to find harder problems to solve
-        pass
-```
+- 🔭 **Currently working on:** Multi-agent orchestration systems with LangGraph and production-grade RAG pipelines
+- 💼 **Recent Experience:** AI Engineer Intern at Wasserstoff Innovations (Building semantic search & HR automation systems)
+- 🏆 **Achievement:** Published 2 Python packages on PyPI ([asterix](https://pypi.org/project/asterix/), [qmem](https://pypi.org/project/qmem/))
+- 🎯 **Focus Areas:** Multi-Agent Systems, RAG, Text-to-SQL, Vector Search (Qdrant, Pinecone, FAISS)
+- ⚡ **Beyond Code:** Chess player, astronomy enthusiast, former MUN delegate
 
 ---
 
-## Featured Projects
+## 🛠 Work Experience
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### AI Engineer Intern | Wasserstoff Innovations
+**June 2025 – Present** | Gurugram, Haryana
 
-### [Asterix](https://github.com/adityasarade/Asterix)
-Framework for stateful AI agents with editable memory blocks and persistent storage. Enables semantic retrieval via Qdrant Cloud for long-term agent memory. **Published on PyPI.**
+- Built **FastAPI backend** integrating Google Gemini API and OpenAI embeddings for legal document analysis, semantic search, and text-to-SQL generation on DuckDB
+- Designed **vector embedding workflows** with Qdrant and Redis caching, reducing query latency by **~90%**
+- Developed **multi-agent HR automation system** using LangGraph and MongoDB for candidate evaluation and behavioral analysis
+- Implemented async data pipelines with **TaskIQ/Celery** and **RabbitMQ** for background assessment generation
+- Created **QMem**, a Python CLI library for vector search automation (published on PyPI)
 
-`Python` `Qdrant` `SQLite` `Agent Memory`
+**Stack:** `Python` `FastAPI` `LangGraph` `Qdrant` `MongoDB` `Redis` `RabbitMQ` `Gemini API` `DuckDB`
 
-</td>
-<td width="50%" valign="top">
+---
 
-### [OSCAR](https://github.com/adityasarade/OSCAR)
-Local copilot for developers — accepts voice or typed instructions and decomposes high-level goals into structured action sequences using AI agents.
+### Data Science Intern | Adgama Digital Pvt Ltd
+**February 2025 – April 2025** | Pune, Maharashtra
 
-`Python` `AI Agents` `Voice Control`
+- Developed and fine-tuned **15+ ML/DL models** (XGBoost, CNNs, Neural Networks) for classification and regression tasks on **100K+ row datasets**
+- Created **reusable preprocessing pipelines** from scratch, handling real-world data challenges across tabular, time-series, and image/text data
+- Deployed **10+ trained models** into production using Streamlit, Gradio, FastAPI, and Django
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**Stack:** `Python` `TensorFlow` `XGBoost` `Streamlit` `FastAPI` `Django` `Pandas` `NumPy`
 
-### [QueryPilot](https://github.com/adityasarade/Query-Pilot)
-RAG-based SQL copilot with real-time autocompletion for MySQL & PostgreSQL. Uses Groq-hosted LLMs, Pinecone, and MLflow. Fully Dockerized with 50%+ latency reduction.
+---
 
-`LLaMA 3` `Pinecone` `MLflow` `Docker` `RAG`
+## 💻 Featured Projects
 
-</td>
-<td width="50%" valign="top">
+### 1. [Asterix](https://github.com/adityasarade/Asterix) — Agent Memory Framework
+> Python library for stateful AI agents with editable memory blocks and semantic retrieval. **Published on PyPI.**
+- **Core Tech:** Python, Qdrant Cloud, SQLite, Decorator-driven tool system
+- **Why it matters:** Enables AI agents to persist context across sessions and perform semantic retrieval for long-term memory — critical for production-grade autonomous systems
 
-### [Document Researcher](https://github.com/adityasarade/Document-Researcher)
-Multi-PDF semantic search with OCR support. FAISS indexing, Groq LLM integration, cross-document theme synthesis. Deployed on HuggingFace Spaces + Vercel.
+---
 
-`FastAPI` `FAISS` `Tesseract OCR` `Sentence-Transformers`
+### 2. [OSCAR](https://github.com/adityasarade/OSCAR) — Local Developer Copilot
+> Intelligent copilot that accepts voice/typed instructions and decomposes goals into structured action sequences.
+- **Core Tech:** Python, AI Agents, Voice Control, Goal Decomposition
+- **Why it matters:** Demonstrates end-to-end agent orchestration from natural language to executable actions
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+---
 
-### [Agentic AI Tutor](https://github.com/adityasarade/Agentic_AI_Tutor)
-Intelligent tutoring system using multi-agent AI architecture for adaptive exam preparation and personalized learning paths.
+### 3. [QueryPilot](https://github.com/adityasarade/Query-Pilot) — RAG-Based SQL Copilot
+> Real-time SQL autocompletion for MySQL & PostgreSQL with 95%+ acceptance rate.
+- **Core Tech:** LLaMA 3, Pinecone, MLflow, Docker, Groq Cloud
+- **Impact:** Reduced latency by 50%+ with fully Dockerized deployment and preloaded models
 
-`Multi-Agent` `LangGraph` `Education AI`
+---
 
-</td>
-<td width="50%" valign="top">
+### 4. [Document Researcher](https://github.com/adityasarade/Document-Researcher) — Multi-PDF Semantic Search
+> Multi-PDF semantic search with OCR and cross-document theme synthesis.
+- **Core Tech:** FastAPI, FAISS, Tesseract OCR, Sentence-Transformers, Groq LLM
+- **Deployed:** HuggingFace Spaces (backend) + Vercel (frontend)
 
-### [Auto-MLOps Agent](https://github.com/adityasarade/Auto-MLOps-Agent)
-Autonomous AI agent that handles the full ML pipeline — data cleaning, model training, and deployment — with minimal human intervention.
-
-`MLOps` `Autonomous Agents` `Pipeline Automation`
-
-</td>
-</tr>
-</table>
+---
 
 <div align="center">
 <a href="https://github.com/adityasarade?tab=repositories">
-<img src="https://img.shields.io/badge/View%20All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/View%20All%20Projects-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </div>
 
 ---
 
-## Tech Stack
+## 🎓 Certifications
+
+| Certification | Issuer | Year |
+|---------------|--------|------|
+| AI Agents in LangGraph | DeepLearning.AI | 2025 |
+| LLMs as Operating Systems: Agent Memory | DeepLearning.AI | 2025 |
+| Large Language Model Agents | UC Berkeley | 2024 |
+| Neural Networks & Deep Learning | DeepLearning.AI (Coursera) | 2025 |
+| Career Essentials in Generative AI | Microsoft & LinkedIn | 2025 |
+| Generative AI Fundamentals | Databricks | 2025 |
+
+---
+
+## 🧰 Tech Stack
 
 <div align="center">
 
@@ -172,7 +162,7 @@ Autonomous AI agent that handles the full ML pipeline — data cleaning, model t
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=adityasarade&show_icons=true&theme=nord&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats"/>
@@ -187,15 +177,11 @@ Autonomous AI agent that handles the full ML pipeline — data cleaning, model t
 
 ---
 
-## Contribution Graph
-
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=adityasarade&theme=nord&hide_border=true&area=true" alt="Contribution Graph"/>
 </div>
 
 ---
-
-## Contribution Snake
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/adityasarade/adityasarade/output/snake.svg" alt="Snake animation" />
