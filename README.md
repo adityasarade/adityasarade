@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hi, I'm Aditya Sarade 👋
+# Hi, I'm Aditya Sarade ✨
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=580&lines=Building+the+Memory+Layer+for+Agentic+AI;Multi-Agent+Systems+%26+RAG+Architect;Published+Python+Libraries+on+PyPI;Always+finding+harder+problems+to+solve" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=580&lines=AI+Researcher;Multi-Agent+Systems+%26+RAG+Architect;Python+Package+Publisher;Backend+Systems+Engineer;Finding+tougher+problems+to+solve" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -18,27 +18,25 @@
 </a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=adityasarade&label=Profile%20Views&color=58A6FF&style=for-the-badge" alt="Profile Views" />
-
 </div>
 
 ---
 
 ## 🚀 About Me
 
-I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of Information Technology, Pune** (graduating 2026). My work focuses on building the **Memory Layer for Agentic AI** — enabling persistent context and long-term planning in autonomous agents.
+I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of Information Technology, Pune** (graduating 2026). My work focuses on building the **Memory Layer for Agentic AI** - enabling persistent context and long-term planning in autonomous agents.
 
-- 🔭 **Currently working on:** Multi-agent orchestration systems with LangGraph and production-grade RAG pipelines
-- 💼 **Recent Experience:** AI Engineer Intern at Wasserstoff Innovations (Building semantic search & HR automation systems)
-- 🏆 **Achievement:** Published 2 Python packages on PyPI ([asterix](https://pypi.org/project/asterix/), [qmem](https://pypi.org/project/qmem/))
-- 🎯 **Focus Areas:** Multi-Agent Systems, RAG, Text-to-SQL, Vector Search (Qdrant, Pinecone, FAISS)
-- ⚡ **Beyond Code:** Chess player, astronomy enthusiast, former MUN delegate
+- **Currently working on:** Multi-agent orchestration systems and production-grade RAG pipelines
+- **Recent Experience:** AI Engineer at Wasserstoff Innovations
+- **Achievement:** Published 2 Python packages on PyPI ([Asterix](https://pypi.org/project/asterix/), [QMem](https://pypi.org/project/qmem/))
+- **Focus Areas:** Multi-Agent Systems, RAG, Text-to-SQL
+- **Beyond Code:** Chess, Astronomy, MUN
 
 ---
 
 ## 🛠 Work Experience
 
-### AI Engineer Intern | Wasserstoff Innovations
+### AI Engineer | Wasserstoff Innovations
 **June 2025 – Present** | Gurugram, Haryana
 
 - Built **FastAPI backend** integrating Google Gemini API and OpenAI embeddings for legal document analysis, semantic search, and text-to-SQL generation on DuckDB
@@ -51,7 +49,7 @@ I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of 
 
 ---
 
-### Data Science Intern | Adgama Digital Pvt Ltd
+### Data Scientist | AdGama
 **February 2025 – April 2025** | Pune, Maharashtra
 
 - Developed and fine-tuned **15+ ML/DL models** (XGBoost, CNNs, Neural Networks) for classification and regression tasks on **100K+ row datasets**
@@ -64,28 +62,28 @@ I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of 
 
 ## 💻 Featured Projects
 
-### 1. [Asterix](https://github.com/adityasarade/Asterix) — Agent Memory Framework
+### 1. [Asterix](https://github.com/adityasarade/Asterix) - Agent Memory Framework
 > Python library for stateful AI agents with editable memory blocks and semantic retrieval. **Published on PyPI.**
 - **Core Tech:** Python, Qdrant Cloud, SQLite, Decorator-driven tool system
-- **Why it matters:** Enables AI agents to persist context across sessions and perform semantic retrieval for long-term memory — critical for production-grade autonomous systems
+- **Why it matters:** Enables AI agents to persist context across sessions and perform semantic retrieval for long-term memory - critical for production-grade autonomous systems
 
 ---
 
-### 2. [OSCAR](https://github.com/adityasarade/OSCAR) — Local Developer Copilot
-> Intelligent copilot that accepts voice/typed instructions and decomposes goals into structured action sequences.
-- **Core Tech:** Python, AI Agents, Voice Control, Goal Decomposition
-- **Why it matters:** Demonstrates end-to-end agent orchestration from natural language to executable actions
-
----
-
-### 3. [QueryPilot](https://github.com/adityasarade/Query-Pilot) — RAG-Based SQL Copilot
+### 2. [QueryPilot](https://github.com/adityasarade/Query-Pilot) - RAG-Based SQL Copilot
 > Real-time SQL autocompletion for MySQL & PostgreSQL with 95%+ acceptance rate.
 - **Core Tech:** LLaMA 3, Pinecone, MLflow, Docker, Groq Cloud
 - **Impact:** Reduced latency by 50%+ with fully Dockerized deployment and preloaded models
 
 ---
 
-### 4. [Document Researcher](https://github.com/adityasarade/Document-Researcher) — Multi-PDF Semantic Search
+### 3. [OSCAR](https://github.com/adityasarade/OSCAR) - Local Developer Copilot
+> Intelligent copilot that accepts voice/typed instructions and decomposes goals into structured action sequences.
+- **Core Tech:** Python, AI Agents, Voice Control, Goal Decomposition
+- **Why it matters:** Demonstrates end-to-end multi-agent orchestration from natural language to executable actions
+
+---
+
+### 4. [Document Researcher](https://github.com/adityasarade/Document-Researcher) - Multi-PDF Semantic Search
 > Multi-PDF semantic search with OCR and cross-document theme synthesis.
 - **Core Tech:** FastAPI, FAISS, Tesseract OCR, Sentence-Transformers, Groq LLM
 - **Deployed:** HuggingFace Spaces (backend) + Vercel (frontend)
@@ -97,19 +95,6 @@ I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of 
 <img src="https://img.shields.io/badge/View%20All%20Projects-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </div>
-
----
-
-## 🎓 Certifications
-
-| Certification | Issuer | Year |
-|---------------|--------|------|
-| AI Agents in LangGraph | DeepLearning.AI | 2025 |
-| LLMs as Operating Systems: Agent Memory | DeepLearning.AI | 2025 |
-| Large Language Model Agents | UC Berkeley | 2024 |
-| Neural Networks & Deep Learning | DeepLearning.AI (Coursera) | 2025 |
-| Career Essentials in Generative AI | Microsoft & LinkedIn | 2025 |
-| Generative AI Fundamentals | Databricks | 2025 |
 
 ---
 
