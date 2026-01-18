@@ -2,7 +2,7 @@
 
 # Hi, I'm Aditya Sarade ✨
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=580&lines=AI+Researcher;Multi-Agent+Systems+%26+RAG+Architect;Python+Package+Publisher;Backend+Systems+Engineer;Finding+tougher+problems+to+solve" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=580&lines=Asterix;AI+Researcher;Multi-Agent+Systems+%26+RAG+Architect;Python+Package+Publisher;Backend+Systems+Engineer;Finding+tougher+problems+to+solve" alt="Typing SVG" /></a>
 
 <br/>
 <p>
@@ -20,6 +20,10 @@
 </div>
 
 ---
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adityasarade&theme=nord&hide_border=true&area=true" alt="Contribution Graph"/>
+</div>
 
 ## About Me
 
@@ -128,7 +132,6 @@ I engineer adaptive AI systems, merging research with production-grade software 
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white"/>
 <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
 <img src="https://img.shields.io/badge/ChromaDB-cc2b5e?style=for-the-badge&logo=chroma&logoColor=white"/>
 </p>
@@ -137,6 +140,7 @@ I engineer adaptive AI systems, merging research with production-grade software 
 <p>
 <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
 <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/>
@@ -150,21 +154,10 @@ I engineer adaptive AI systems, merging research with production-grade software 
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=adityasarade&show_icons=true&theme=nord&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasarade&theme=nord&hide_border=true&layout=compact&langs_count=8" height="180" alt="Top Languages"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adityasarade&theme=nord&hide_border=true" height="180" alt="GitHub Streak"/>
 </div>
 
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adityasarade&theme=nord&hide_border=true" alt="GitHub Streak"/>
-</div>
-
----
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adityasarade&theme=nord&hide_border=true&area=true" alt="Contribution Graph"/>
-</div>
 
 ---
 
