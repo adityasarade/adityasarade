@@ -78,7 +78,7 @@ I engineer adaptive AI systems, merging research with production-grade software 
 
 ---
 
-### 3. [OSCAR](https://github.com/adityasarade/OSCAR) - Local Developer Copilot
+### 3. [OSCAR](https://github.com/adityasarade/OSCAR) - CLI Agent for Developers
 > *Intelligent copilot that accepts voice/typed instructions and decomposes goals into structured action sequences.*
 - **Core Tech:** Python, AI Agents, Voice Control, Goal Decomposition
 - **Why it matters:** Demonstrates end-to-end multi-agent orchestration from natural language to executable actions
@@ -89,6 +89,13 @@ I engineer adaptive AI systems, merging research with production-grade software 
 > *Multi-PDF semantic search with OCR and cross-document theme synthesis.*
 - **Core Tech:** FastAPI, FAISS, Tesseract OCR, Sentence-Transformers, Groq LLM
 - **Deployed:** HuggingFace Spaces (backend) + Vercel (frontend)
+
+---
+
+### 5. [Agentic AI Tutor](https://github.com/adityasarade/Agentic-AI-Tutor) - Adaptive EdTech Platform
+> *Intelligent tutoring system providing personalized learning paths through multi-agent orchestration.*
+- **Core Tech:** Python, LangGraph, FastAPI, ChromaDB, OpenAI, Gemini
+- **Why it matters:** Democratizes access to high-quality, personalized education by adapting to each student's unique learning pace and style.
 
 ---
 
