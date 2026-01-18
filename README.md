@@ -5,7 +5,6 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=580&lines=AI+Researcher;Multi-Agent+Systems+%26+RAG+Architect;Python+Package+Publisher;Backend+Systems+Engineer;Finding+tougher+problems+to+solve" alt="Typing SVG" /></a>
 
 <br/>
-
 <p>
 <a href="https://www.linkedin.com/in/adityasarade/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -22,22 +21,21 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
-I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of Information Technology, Pune** (graduating 2026). My work focuses on building the **Memory Layer for Agentic AI** - enabling persistent context and long-term planning in autonomous agents.
+I engineer adaptive AI systems, merging research with production-grade software standards. My work involves architecting persistent memory layers, orchestrating multi-agent systems (LangGraph), and building high-performance retrieval pipelines (RAG) that operate at scale.
 
-- **Currently working on:** Multi-agent orchestration systems and production-grade RAG pipelines
-- **Recent Experience:** AI Engineer at Wasserstoff Innovations
-- **Achievement:** Published 2 Python packages on PyPI ([Asterix](https://pypi.org/project/asterix/), [QMem](https://pypi.org/project/qmem/))
-- **Focus Areas:** Multi-Agent Systems, RAG, Text-to-SQL
-- **Beyond Code:** Chess, Astronomy, MUN
+- **Agentic AI:** building robust memory layers & multi-agent orchestration.
+- **Semantic Search:** designing scalable threading & embedding workflows (Qdrant, Pinecone, ChromaDB).
+- **Production Engineering:** creating low-latency FastAPI services & async pipelines.
+- **Applied Research:** fine-tuning models & improving reasoning capabilities.
 
 ---
 
-## 🛠 Work Experience
+## Work Experience
 
 ### AI Engineer | Wasserstoff Innovations
-**June 2025 – Present** | Gurugram, Haryana
+*(June 2025 – October 2025)*
 
 - Built **FastAPI backend** integrating Google Gemini API and OpenAI embeddings for legal document analysis, semantic search, and text-to-SQL generation on DuckDB
 - Designed **vector embedding workflows** with Qdrant and Redis caching, reducing query latency by **~90%**
@@ -50,7 +48,7 @@ I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of 
 ---
 
 ### Data Scientist | AdGama
-**February 2025 – April 2025** | Pune, Maharashtra
+*(February 2025 – April 2025)*
 
 - Developed and fine-tuned **15+ ML/DL models** (XGBoost, CNNs, Neural Networks) for classification and regression tasks on **100K+ row datasets**
 - Created **reusable preprocessing pipelines** from scratch, handling real-world data challenges across tabular, time-series, and image/text data
@@ -60,31 +58,31 @@ I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of 
 
 ---
 
-## 💻 Featured Projects
+## Featured Projects
 
 ### 1. [Asterix](https://github.com/adityasarade/Asterix) - Agent Memory Framework
-> Python library for stateful AI agents with editable memory blocks and semantic retrieval. **Published on PyPI.**
+> *Python library for stateful AI agents with editable memory blocks and semantic retrieval. **Published on PyPI.***
 - **Core Tech:** Python, Qdrant Cloud, SQLite, Decorator-driven tool system
 - **Why it matters:** Enables AI agents to persist context across sessions and perform semantic retrieval for long-term memory - critical for production-grade autonomous systems
 
 ---
 
 ### 2. [QueryPilot](https://github.com/adityasarade/Query-Pilot) - RAG-Based SQL Copilot
-> Real-time SQL autocompletion for MySQL & PostgreSQL with 95%+ acceptance rate.
+> *Real-time SQL autocompletion for MySQL & PostgreSQL with 95%+ acceptance rate.*
 - **Core Tech:** LLaMA 3, Pinecone, MLflow, Docker, Groq Cloud
 - **Impact:** Reduced latency by 50%+ with fully Dockerized deployment and preloaded models
 
 ---
 
 ### 3. [OSCAR](https://github.com/adityasarade/OSCAR) - Local Developer Copilot
-> Intelligent copilot that accepts voice/typed instructions and decomposes goals into structured action sequences.
+> *Intelligent copilot that accepts voice/typed instructions and decomposes goals into structured action sequences.*
 - **Core Tech:** Python, AI Agents, Voice Control, Goal Decomposition
 - **Why it matters:** Demonstrates end-to-end multi-agent orchestration from natural language to executable actions
 
 ---
 
 ### 4. [Document Researcher](https://github.com/adityasarade/Document-Researcher) - Multi-PDF Semantic Search
-> Multi-PDF semantic search with OCR and cross-document theme synthesis.
+> *Multi-PDF semantic search with OCR and cross-document theme synthesis.*
 - **Core Tech:** FastAPI, FAISS, Tesseract OCR, Sentence-Transformers, Groq LLM
 - **Deployed:** HuggingFace Spaces (backend) + Vercel (frontend)
 
@@ -98,7 +96,7 @@ I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of 
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -131,6 +129,8 @@ I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of 
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
 <img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white"/>
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+<img src="https://img.shields.io/badge/ChromaDB-cc2b5e?style=for-the-badge&logo=chroma&logoColor=white"/>
 </p>
 
 ### Cloud & DevOps
@@ -147,7 +147,7 @@ I am a final-year **B.Tech AI & Data Science** student at **AISSMS Institute of 
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=adityasarade&show_icons=true&theme=nord&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats"/>
