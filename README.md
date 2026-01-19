@@ -92,7 +92,7 @@ I engineer adaptive AI systems, merging research with production-grade software 
 
 ---
 
-### 5. [Agentic AI Tutor](https://github.com/adityasarade/Agentic-AI-Tutor) - Adaptive EdTech Platform
+### 5. [Agentic AI Tutor](https://github.com/adityasarade/Agentic_AI_Tutor) - Adaptive EdTech Platform
 > *Intelligent tutoring system providing personalized learning paths through multi-agent orchestration.*
 - **Core Tech:** Python, LangGraph, FastAPI, ChromaDB, OpenAI, Gemini
 - **Why it matters:** Democratizes access to high-quality, personalized education by adapting to each student's unique learning pace and style.
