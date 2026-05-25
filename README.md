@@ -87,17 +87,18 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 
 ---
 
-### 2. [QueryPilot](https://github.com/adityasarade/Query-Pilot) — RAG-Based SQL Copilot
-> *Real-time SQL autocompletion inside MySQL Workbench & PostgreSQL with **95%+ acceptance rate** across 20+ sessions.*
-- **Core Tech:** LLaMA 3 via Groq, Pinecone, MLflow, Docker, YAML-driven configs
-- **Impact:** Latency cut by **50%+** via Dockerized deployment with preloaded models and clipboard hooks
+### 2. [OSCAR](https://github.com/adityasarade/OSCAR) — GitHub-Specialized AI Coding Assistant
+> *VS Code extension + CLI powered by my own Asterix framework and **Gemini 2.5 Flash via Vertex AI**, specialized for git workflows — branch comparison, PR review, diff analysis, and safe automation.*
+- **Core Tech:** Python, FastAPI (SSE streaming), TypeScript VS Code extension, Asterix (ReAct loop + memory), Vertex AI, Playwright, Tavily
+- **What's inside:** 15 registered tools (9 git · shell · web search · browser), 12 HTTP endpoints, 4-tier risk model with human-in-the-loop confirmations, typed `CONFIRM` for dangerous ops, rotating JSONL audit log
+- **Why it matters:** Real demonstration of agentic orchestration with production safety: ~2.3K backend LOC, 15 tests, CI across Python 3.10/3.11/3.12, ~9 months of iteration
 
 ---
 
-### 3. [OSCAR](https://github.com/adityasarade/OSCAR) — Local Copilot for Developers
-> *Intelligent local copilot that accepts voice/typed instructions, decomposes goals via an LLM-guided agentic reasoning loop, shows the plan, asks for confirmation, then executes verified actions on the host.*
-- **Core Tech:** Python, agentic reasoning loop, voice + typed input, explicit plan/approve/execute flow
-- **Why it matters:** End-to-end demonstration of multi-agent orchestration from natural language → executable host actions
+### 3. [QueryPilot](https://github.com/adityasarade/Query-Pilot) — RAG-Based SQL Copilot
+> *Real-time SQL autocompletion inside MySQL Workbench & PostgreSQL with **95%+ acceptance rate** across 20+ sessions.*
+- **Core Tech:** LLaMA 3 via Groq, Pinecone, MLflow, Docker, YAML-driven configs
+- **Impact:** Latency cut by **50%+** via Dockerized deployment with preloaded models and clipboard hooks
 
 ---
 
