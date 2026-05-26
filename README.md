@@ -35,7 +35,7 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 - **Agentic AI:** robust memory layers, multi-agent orchestration with LangGraph, tool-driven autonomy.
 - **Retrieval at Scale:** Qdrant / Pinecone / FAISS / ChromaDB pipelines tuned for latency and cost.
 - **Production Engineering:** FastAPI + async + queues (TaskIQ / Celery / RabbitMQ) on AWS & Vertex AI.
-- **Published Packages:** [Asterix](https://pypi.org/project/asterix-ai/) and QMem on PyPI.
+- **Published Packages:** [`asterix-agent`](https://pypi.org/project/asterix-agent/), [`oscar-agent`](https://pypi.org/project/oscar-agent/), and [`qmem`](https://pypi.org/project/qmem/) on PyPI.
 
 ---
 
@@ -61,7 +61,7 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 - Designed **vector embedding workflows** with Qdrant and Redis caching, reducing query latency by **~90%**
 - Developed **multi-agent HR automation system** using LangGraph and MongoDB for candidate evaluation and behavioral analysis
 - Implemented async data pipelines with **TaskIQ/Celery** and **RabbitMQ** for background assessment generation
-- Created **QMem**, a Python CLI library for vector search automation (published on PyPI)
+- Created **[QMem](https://pypi.org/project/qmem/)**, a Python CLI library for vector search automation (published on PyPI)
 
 **Stack:** `Python` `FastAPI` `LangGraph` `Qdrant` `MongoDB` `Redis` `RabbitMQ` `Gemini API` `DuckDB`
 
@@ -80,14 +80,14 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 
 ## Featured Projects
 
-### 1. [Asterix](https://github.com/adityasarade/Asterix) — Agent Memory Framework
+### 1. [Asterix](https://github.com/adityasarade/Asterix) — Agent Memory Framework &nbsp;·&nbsp; [PyPI: `asterix-agent`](https://pypi.org/project/asterix-agent/)
 > *Python library for stateful AI agents with editable memory blocks and semantic retrieval. **Published on PyPI.***
 - **Core Tech:** Python, Qdrant Cloud, SQLite, decorator-driven tool registration
 - **Why it matters:** Lets agents persist context across sessions and retrieve memory semantically — the missing piece for production-grade autonomous systems
 
 ---
 
-### 2. [OSCAR](https://github.com/adityasarade/OSCAR) — GitHub-Specialized AI Coding Assistant
+### 2. [OSCAR](https://github.com/adityasarade/OSCAR) — GitHub-Specialized AI Coding Assistant &nbsp;·&nbsp; [PyPI: `oscar-agent`](https://pypi.org/project/oscar-agent/) &nbsp;·&nbsp; [oscar-agent.vercel.app](https://oscar-agent.vercel.app/)
 > *VS Code extension + CLI powered by my own Asterix framework and **Gemini 2.5 Flash via Vertex AI**, specialized for git workflows — branch comparison, PR review, diff analysis, and safe automation.*
 - **Core Tech:** Python, FastAPI (SSE streaming), TypeScript VS Code extension, Asterix (ReAct loop + memory), Vertex AI, Playwright, Tavily
 - **What's inside:** 15 registered tools (9 git · shell · web search · browser), 12 HTTP endpoints, 4-tier risk model with human-in-the-loop confirmations, typed `CONFIRM` for dangerous ops, rotating JSONL audit log
