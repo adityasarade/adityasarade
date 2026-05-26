@@ -30,7 +30,7 @@
 
 ## About Me
 
-AI Engineer focused on taking systems from prototype to production. I architect multi-agent orchestration pipelines, low-latency FastAPI services, and vector-search workflows that ship to real users — not stay in notebooks. Currently building the foundational AI stack at **Medikabazaar** under the EVP of Technology.
+AI Engineer focused on taking systems from prototype to production. I architect multi-agent orchestration pipelines, low-latency FastAPI services, and vector-search workflows that ship to real users — not stay in notebooks. Currently building the foundational AI stack at **Medikabazaar**.
 
 - **Agentic AI:** robust memory layers, multi-agent orchestration with LangGraph, tool-driven autonomy.
 - **Retrieval at Scale:** Qdrant / Pinecone / FAISS / ChromaDB pipelines tuned for latency and cost.
@@ -42,7 +42,7 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 ## Work Experience
 
 ### AI Engineer Intern · Medikabazaar
-*(February 2026 – Present)* &nbsp;·&nbsp; Reporting to the Executive VP of Technology &nbsp;·&nbsp; Founding member of the AI initiative
+*(February 2026 – Present)* &nbsp;·&nbsp; Founding member of the AI initiative
 
 - Shipped the **Image Enhancement Platform** (flagship): FastAPI service deployed on **AWS (Vertex AI, S3, Kafka, EC2, Jenkins CI)** — **~14,000 product images live** on the marketplace, all converted to WebP for measurable SEO + page-load wins
 - Built the **SEO Blog Agent** end-to-end: **~10.4K LOC** Python pipeline ingesting **21K Ahrefs keywords** against 999 SKUs, clustering them into 624 product groups, plus a **~7K LOC React/TypeScript** dashboard, automated three-size banner generator, and CMS publishing — **10+ blogs already live** with zero engineering involvement per release
