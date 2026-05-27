@@ -2,7 +2,7 @@
 
 # Hi, I'm Aditya Sarade ✨
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=620&lines=AI+Engineer+%E2%80%A2+Building+Production+AI+at+Medikabazaar;Multi-Agent+Systems+%26+RAG+Architect;FastAPI+%2B+LangGraph+%2B+Vector+Search;Python+Package+Publisher+(Asterix%2C+QMem+on+PyPI);Shipping+AI+from+prototype+%E2%86%92+production" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=800&lines=AI+Engineer+%E2%80%A2+Building+Production+AI;Multi-Agent+Systems+%26+RAG+Architect;Python+Package+Publisher+(Asterix%2C+OSCAR%2C+QMem+on+PyPI);Shipping+AI+from+prototype+%E2%86%92+production" alt="Typing SVG" /></a>
 
 <br/>
 <p>
