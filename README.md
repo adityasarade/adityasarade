@@ -2,7 +2,7 @@
 
 # Hi, I'm Aditya Sarade ✨
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=800&lines=AI+Engineer+%E2%80%A2+Building+Production+AI;Multi-Agent+Systems+%26+RAG+Architect;Python+Package+Publisher+(Asterix%2C+OSCAR%2C+QMem+on+PyPI);Shipping+AI+from+prototype+%E2%86%92+production" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=800&lines=AI+Engineer+%E2%80%A2+Building+Production+AI;Multi-Agent+Systems+%26+RAG+Architect;Python+Package+Publisher+(Asterix%2C+OSCAR%2C+QMem+on+PyPI);Shipping+AI+from+Prototype+%E2%86%92+Production" alt="Typing SVG" /></a>
 
 <br/>
 <p>
@@ -30,7 +30,7 @@
 
 ## About Me
 
-AI Engineer focused on taking systems from prototype to production. I architect multi-agent orchestration pipelines, low-latency FastAPI services, and vector-search workflows that ship to real users — not stay in notebooks. Currently building the foundational AI stack at **Medikabazaar**.
+AI Engineer focused on taking systems from prototype to production. I architect multi-agent orchestration pipelines, low-latency FastAPI services, and vector-search workflows that ship to real users. Currently building the foundational AI stack at **Medikabazaar**.
 
 - **Agentic AI:** robust memory layers, multi-agent orchestration with LangGraph, tool-driven autonomy.
 - **Retrieval at Scale:** Qdrant / Pinecone / FAISS / ChromaDB pipelines tuned for latency and cost.
@@ -44,9 +44,9 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 ### AI Engineer Intern · Medikabazaar
 *(February 2026 – Present)* &nbsp;·&nbsp; Founding member of the AI initiative
 
-- Shipped the **Image Enhancement Platform** (flagship): FastAPI service deployed on **AWS (Vertex AI, S3, Kafka, EC2, Jenkins CI)** — **~14,000 product images live** on the marketplace, all converted to WebP for measurable SEO + page-load wins
-- Built the **SEO Blog Agent** end-to-end: **~10.4K LOC** Python pipeline ingesting **21K Ahrefs keywords** against 999 SKUs, clustering them into 624 product groups, plus a **~7K LOC React/TypeScript** dashboard, automated three-size banner generator, and CMS publishing — **10+ blogs already live** with zero engineering involvement per release
-- Architected the **AI Command Centre**, a 6-layer hybrid multi-agent platform (orchestrator + 5 shared functional agents + per-product liaisons) for company-wide observability, evaluation, cost tracking, and guardrails — projected **40–60% reduction** in org-wide LLM spend
+- Shipped the **Image Enhancement Platform** (flagship): FastAPI service deployed on **AWS (Vertex AI, S3, Kafka, EC2, Jenkins CI)** - **~14,000 product images live** on the marketplace, all converted to WebP for measurable SEO + page-load wins
+- Built the **SEO Blog Agent** end-to-end: Python pipeline ingesting **Ahrefs keywords** against live SKUs, clustering them into 624 product groups, plus a **React/TypeScript** dashboard, automated three-size banner generator, and CMS publishing - **blogs already live** with zero engineering involvement per release
+- Architected the **AI Command Centre**, a 6-layer hybrid multi-agent platform (orchestrator + 5 shared functional agents + per-product liaisons) for company-wide observability, evaluation, cost tracking, and guardrails - projected **40–60% reduction** in org-wide LLM spend
 - Delivered audits across **27 codebases + JIRA** (now a recurring monthly responsibility) and **~₹3L+** in direct cost savings via Gemini Batch API, async pipelines, cache-hit optimisation, and a JSpreadsheet → community-edition migration
 - Drove **AI enablement** across the org: onboarded engineers and non-technical teams on Claude / Claude Code / Antigravity / Amazon Q; integrated Google Ads, Analytics, and Search Console with Claude Code via MCP
 
@@ -80,36 +80,36 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 
 ## Featured Projects
 
-### 1. [Asterix](https://github.com/adityasarade/Asterix) — Agent Memory Framework &nbsp;·&nbsp; [PyPI: `asterix-agent`](https://pypi.org/project/asterix-agent/)
+### 1. [Asterix](https://github.com/adityasarade/Asterix) - Agent Memory Framework &nbsp;·&nbsp; [PyPI: `asterix-agent`](https://pypi.org/project/asterix-agent/)
 > *Python library for stateful AI agents with editable memory blocks and semantic retrieval. **Published on PyPI.***
 - **Core Tech:** Python, Qdrant Cloud, SQLite, decorator-driven tool registration
-- **Why it matters:** Lets agents persist context across sessions and retrieve memory semantically — the missing piece for production-grade autonomous systems
+- **Why it matters:** Lets agents persist context across sessions and retrieve memory semantically - the missing piece for production-grade autonomous systems
 
 ---
 
-### 2. [OSCAR](https://github.com/adityasarade/OSCAR) — GitHub-Specialized AI Coding Assistant &nbsp;·&nbsp; [PyPI: `oscar-agent`](https://pypi.org/project/oscar-agent/) &nbsp;·&nbsp; [oscar-agent.vercel.app](https://oscar-agent.vercel.app/)
-> *VS Code extension + CLI powered by my own Asterix framework and **Gemini 2.5 Flash via Vertex AI**, specialized for git workflows — branch comparison, PR review, diff analysis, and safe automation.*
+### 2. [OSCAR](https://github.com/adityasarade/OSCAR) - GitHub-Specialized AI Coding Assistant &nbsp;·&nbsp; [PyPI: `oscar-agent`](https://pypi.org/project/oscar-agent/) &nbsp;·&nbsp; [oscar-agent.vercel.app](https://oscar-agent.vercel.app/)
+> *VS Code extension + CLI powered by my own Asterix framework and **Gemini 2.5 Flash via Vertex AI**, specialized for git workflows - branch comparison, PR review, diff analysis, and safe automation.*
 - **Core Tech:** Python, FastAPI (SSE streaming), TypeScript VS Code extension, Asterix (ReAct loop + memory), Vertex AI, Playwright, Tavily
 - **What's inside:** 15 registered tools (9 git · shell · web search · browser), 12 HTTP endpoints, 4-tier risk model with human-in-the-loop confirmations, typed `CONFIRM` for dangerous ops, rotating JSONL audit log
 - **Why it matters:** Real demonstration of agentic orchestration with production safety: ~2.3K backend LOC, 15 tests, CI across Python 3.10/3.11/3.12, ~9 months of iteration
 
 ---
 
-### 3. [QueryPilot](https://github.com/adityasarade/Query-Pilot) — RAG-Based SQL Copilot
+### 3. [QueryPilot](https://github.com/adityasarade/Query-Pilot) - RAG-Based SQL Copilot
 > *Real-time SQL autocompletion inside MySQL Workbench & PostgreSQL with **95%+ acceptance rate** across 20+ sessions.*
 - **Core Tech:** LLaMA 3 via Groq, Pinecone, MLflow, Docker, YAML-driven configs
 - **Impact:** Latency cut by **50%+** via Dockerized deployment with preloaded models and clipboard hooks
 
 ---
 
-### 4. [Document Researcher](https://github.com/adityasarade/Document-Researcher) — Multi-PDF Theme Synthesizer
+### 4. [Document Researcher](https://github.com/adityasarade/Document-Researcher) - Multi-PDF Theme Synthesizer
 > *Multi-PDF semantic search with OCR and cross-document theme synthesis.*
 - **Core Tech:** FastAPI, FAISS, Tesseract OCR, Sentence-Transformers, Groq LLM
 - **Deployed:** Hugging Face Spaces (backend) + Vercel (frontend)
 
 ---
 
-### 5. [Agentic AI Tutor](https://github.com/adityasarade/Agentic_AI_Tutor) — Adaptive EdTech Platform
+### 5. [Agentic AI Tutor](https://github.com/adityasarade/Agentic_AI_Tutor) - Adaptive EdTech Platform
 > *Intelligent tutoring system delivering personalized learning paths through multi-agent orchestration.*
 - **Core Tech:** Python, LangGraph, FastAPI, ChromaDB, OpenAI, Gemini
 - **Why it matters:** Democratizes access to high-quality, personalized education by adapting to each learner's pace and style
@@ -203,5 +203,5 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 </div>
 
 <div align="center">
-  <sub>If you've come here from my resume — thanks for stopping by. Feel free to reach out via any of the channels above.</sub>
+  <sub>If you've come here from my resume - thanks for stopping by. Feel free to reach out via any of the channels above.</sub>
 </div>
