@@ -45,7 +45,7 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 
 ## Work Experience
 
-### AI Engineer Intern · Medikabazaar
+### AI Engineer · Medikabazaar
 *(February 2026 – Present)* &nbsp;·&nbsp; Founding member of the AI initiative
 
 - Shipped the **Image Enhancement Platform** (flagship): FastAPI service deployed on **AWS (Vertex AI, S3, Kafka, EC2, Jenkins CI)** - **~14,000 product images live** on the marketplace, all converted to WebP for measurable SEO + page-load wins
