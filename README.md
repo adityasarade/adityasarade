@@ -2,7 +2,7 @@
 
 # Hi, I'm Aditya Sarade ✨
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=800&lines=AI+Engineer+%E2%80%A2+Building+Production+AI;Multi-Agent+Systems+%26+RAG+Architect;Python+Package+Publisher+(Asterix%2C+OSCAR%2C+QMem+on+PyPI);Shipping+AI+from+Prototype+%E2%86%92+Production" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=800&lines=AI+Engineer+%E2%80%A2+Building+Production+AI;Multi-Agent+Systems+%26+RAG+Architect;Author+of+AI+Command+Center+%E2%80%94+an+Open-Source+LLM+Gateway;Publishing+Open+Source+on+npm+%2B+PyPI;Shipping+AI+from+Prototype+%E2%86%92+Production" alt="Typing SVG" /></a>
 
 <br/>
 <p>
@@ -17,6 +17,9 @@
 </a>
 <a href="https://pypi.org/user/adityasarade/">
 <img src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white"/>
+</a>
+<a href="https://www.npmjs.com/package/ai-command-center">
+<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
 </a>
 </p>
 
@@ -35,7 +38,8 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 - **Agentic AI:** robust memory layers, multi-agent orchestration with LangGraph, tool-driven autonomy.
 - **Retrieval at Scale:** Qdrant / Pinecone / FAISS / ChromaDB pipelines tuned for latency and cost.
 - **Production Engineering:** FastAPI + async + queues (TaskIQ / Celery / RabbitMQ) on AWS & Vertex AI.
-- **Published Packages:** [`asterix-agent`](https://pypi.org/project/asterix-agent/), [`oscar-agent`](https://pypi.org/project/oscar-agent/), and [`qmem`](https://pypi.org/project/qmem/) on PyPI.
+- **LLM Infrastructure:** [AI Command Center](https://github.com/adityasarade/ai-command-center) - a zero-dependency LLM gateway + self-hosted cost/usage dashboard, [live](https://aicommandcenter.vercel.app) and open-source.
+- **Published Packages:** [`ai-command-center`](https://www.npmjs.com/package/ai-command-center) & [`@ai-command-center/sdk`](https://www.npmjs.com/package/@ai-command-center/sdk) on npm; [`asterix-agent`](https://pypi.org/project/asterix-agent/), [`oscar-agent`](https://pypi.org/project/oscar-agent/), [`qmem`](https://pypi.org/project/qmem/) & [`aicc-sdk`](https://pypi.org/project/aicc-sdk/) on PyPI.
 
 ---
 
@@ -46,7 +50,7 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 
 - Shipped the **Image Enhancement Platform** (flagship): FastAPI service deployed on **AWS (Vertex AI, S3, Kafka, EC2, Jenkins CI)** - **~14,000 product images live** on the marketplace, all converted to WebP for measurable SEO + page-load wins
 - Built the **SEO Blog Agent** end-to-end: Python pipeline ingesting **Ahrefs keywords** against live SKUs, clustering them into 624 product groups, plus a **React/TypeScript** dashboard, automated three-size banner generator, and CMS publishing - **blogs already live** with zero engineering involvement per release
-- Architected the **AI Command Centre**, a 6-layer hybrid multi-agent platform (orchestrator + 5 shared functional agents + per-product liaisons) for company-wide observability, evaluation, cost tracking, and guardrails - projected **40–60% reduction** in org-wide LLM spend
+- Architected the **AI Command Center** (internal "AI Box" initiative): a 6-layer hybrid multi-agent platform (orchestrator + 5 shared functional agents + per-product liaisons) for company-wide observability, evaluation, cost tracking, and guardrails - projected **40–60% reduction** in org-wide LLM spend; **independently built the core end-to-end and open-sourced it** as 3 packages across npm + PyPI ([repo](https://github.com/adityasarade/ai-command-center) · [live site](https://aicommandcenter.vercel.app))
 - Delivered audits across **27 codebases + JIRA** (now a recurring monthly responsibility) and **~₹3L+** in direct cost savings via Gemini Batch API, async pipelines, cache-hit optimisation, and a JSpreadsheet → community-edition migration
 - Drove **AI enablement** across the org: onboarded engineers and non-technical teams on Claude / Claude Code / Antigravity / Amazon Q; integrated Google Ads, Analytics, and Search Console with Claude Code via MCP
 
@@ -80,14 +84,23 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 
 ## Featured Projects
 
-### 1. [Asterix](https://github.com/adityasarade/Asterix) - Agent Memory Framework &nbsp;·&nbsp; [PyPI: `asterix-agent`](https://pypi.org/project/asterix-agent/)
+### 1. [AI Command Center](https://github.com/adityasarade/ai-command-center) - Zero-Dependency LLM Gateway + Cost Dashboard &nbsp;·&nbsp; [Live Site](https://aicommandcenter.vercel.app) &nbsp;·&nbsp; [In-Browser Demo](https://aicommandcenter.vercel.app/demo)
+> *Point any project - in any language - at one base URL, and every token, rupee, and millisecond lands in one self-hosted dashboard. Designed as the internal "AI Box" platform, then built end-to-end and open-sourced as 3 packages across npm + PyPI.*
+- **Core Tech:** Node.js (ESM, zero runtime deps), HTTP reverse proxy + SSE streaming, Vanilla JS dashboard, Next.js docs site on Vercel, Python + JavaScript SDKs
+- **What's inside:** 10+ LLM providers through one gateway (OpenAI, Anthropic, Gemini, Mistral, Groq, Ollama + any OpenAI-compatible), exact per-request cost accounting in multi-currency (INR/USD/EUR), provider routing/failover, RBAC (3 roles + per-project keys), budgets + anomaly alerts, session traces, PII-safe (no message bodies stored)
+- **Engineering:** <0.25 ms p50 proxy overhead · 0 runtime dependencies in the core · 70+ tests with GitHub Actions CI across Node 18/20/22 · 3 published packages ([`ai-command-center`](https://www.npmjs.com/package/ai-command-center) · [`@ai-command-center/sdk`](https://www.npmjs.com/package/@ai-command-center/sdk) · [`aicc-sdk`](https://pypi.org/project/aicc-sdk/))
+- **Why it matters:** One language-agnostic control plane for cost, guardrails, and observability across an org's entire AI portfolio - sole designer & developer, built during my internship at a healthcare B2B
+
+---
+
+### 2. [Asterix](https://github.com/adityasarade/Asterix) - Agent Memory Framework &nbsp;·&nbsp; [PyPI: `asterix-agent`](https://pypi.org/project/asterix-agent/)
 > *Python library for stateful AI agents with editable memory blocks and semantic retrieval. **Published on PyPI.***
 - **Core Tech:** Python, Qdrant Cloud, SQLite, decorator-driven tool registration
 - **Why it matters:** Lets agents persist context across sessions and retrieve memory semantically - the missing piece for production-grade autonomous systems
 
 ---
 
-### 2. [OSCAR](https://github.com/adityasarade/OSCAR) - GitHub-Specialized AI Coding Assistant &nbsp;·&nbsp; [PyPI: `oscar-agent`](https://pypi.org/project/oscar-agent/) &nbsp;·&nbsp; [oscar-agent.vercel.app](https://oscar-agent.vercel.app/)
+### 3. [OSCAR](https://github.com/adityasarade/OSCAR) - GitHub-Specialized AI Coding Assistant &nbsp;·&nbsp; [PyPI: `oscar-agent`](https://pypi.org/project/oscar-agent/) &nbsp;·&nbsp; [oscar-agent.vercel.app](https://oscar-agent.vercel.app/)
 > *VS Code extension + CLI powered by my own Asterix framework and **Gemini 2.5 Flash via Vertex AI**, specialized for git workflows - branch comparison, PR review, diff analysis, and safe automation.*
 - **Core Tech:** Python, FastAPI (SSE streaming), TypeScript VS Code extension, Asterix (ReAct loop + memory), Vertex AI, Playwright, Tavily
 - **What's inside:** 15 registered tools (9 git · shell · web search · browser), 12 HTTP endpoints, 4-tier risk model with human-in-the-loop confirmations, typed `CONFIRM` for dangerous ops, rotating JSONL audit log
@@ -95,21 +108,21 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 
 ---
 
-### 3. [QueryPilot](https://github.com/adityasarade/Query-Pilot) - RAG-Based SQL Copilot
+### 4. [QueryPilot](https://github.com/adityasarade/Query-Pilot) - RAG-Based SQL Copilot
 > *Real-time SQL autocompletion inside MySQL Workbench & PostgreSQL with **95%+ acceptance rate** across 20+ sessions.*
 - **Core Tech:** LLaMA 3 via Groq, Pinecone, MLflow, Docker, YAML-driven configs
 - **Impact:** Latency cut by **50%+** via Dockerized deployment with preloaded models and clipboard hooks
 
 ---
 
-### 4. [Document Researcher](https://github.com/adityasarade/Document-Researcher) - Multi-PDF Theme Synthesizer
+### 5. [Document Researcher](https://github.com/adityasarade/Document-Researcher) - Multi-PDF Theme Synthesizer
 > *Multi-PDF semantic search with OCR and cross-document theme synthesis.*
 - **Core Tech:** FastAPI, FAISS, Tesseract OCR, Sentence-Transformers, Groq LLM
 - **Deployed:** Hugging Face Spaces (backend) + Vercel (frontend)
 
 ---
 
-### 5. [Agentic AI Tutor](https://github.com/adityasarade/Agentic_AI_Tutor) - Adaptive EdTech Platform
+### 6. [Agentic AI Tutor](https://github.com/adityasarade/Agentic_AI_Tutor) - Adaptive EdTech Platform
 > *Intelligent tutoring system delivering personalized learning paths through multi-agent orchestration.*
 - **Core Tech:** Python, LangGraph, FastAPI, ChromaDB, OpenAI, Gemini
 - **Why it matters:** Democratizes access to high-quality, personalized education by adapting to each learner's pace and style
@@ -136,6 +149,7 @@ AI Engineer focused on taking systems from prototype to production. I architect 
 <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
 </p>
