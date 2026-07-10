@@ -31,7 +31,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=adityasarade&theme=nord&hide_border=true&area=true" alt="Contribution Graph"/>
 </div>
 
-## About Me : [Portfolio link](https://adityasarade.github.io/)
+## About Me : [Portfolio Link](https://adityasarade.github.io/)
 
 AI Engineer focused on taking systems from prototype to production. I architect multi-agent orchestration pipelines, low-latency FastAPI services, and vector-search workflows that ship to real users. Currently building the foundational AI stack at **Medikabazaar**.
 
